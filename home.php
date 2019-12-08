@@ -12,7 +12,7 @@ if (is_dir("imgs/")) {
     $check_path = "";
 } elseif (is_dir("../imgs/")) {
     $check_path = "../";
-} elseif (is_dir("../../imgs/")) {
+} elseif (is_dir("../../imgs/") ) {
     $check_path = "../../";
 }
 ?>
